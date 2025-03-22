@@ -59,4 +59,27 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Run on scroll
     window.addEventListener('scroll', animateOnScroll);
+
+    // Course tabs functionality - FIXED
+    const courseTabs = document.querySelectorAll('.course-tab');
+    const courseCards = document.querySelectorAll('.course-cards');
+    
+    if (courseTabs.length > 0 && courseCards.length > 0) {
+        courseTabs.forEach(tab => {
+            tab.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Remove active class from all tabs and cards
+                courseTabs.forEach(tab => tab.classList.remove('active'));
+                courseCards.forEach(card => card.classList.remove('active'));
+                
+                // Add active class to clicked tab
+                this.classList.add('active');
+                
+                // Show corresponding course card
+                const courseId = this.getAttribute('data-course');
+                document.getElementById(courseId).classList.add('active');
+            });
+        });
+    }
 });
