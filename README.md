@@ -26,12 +26,12 @@ Welcome to **Crystal Home Care Services**, a compassionate and professional home
 📂 CrystalHomeCare 
 ┣ 📜 index.html # Homepage
 ┣ 📜 about.html # About Us Page
-┣ 📜 services.html # Our Services (Not Uploaded)
-┣ 📜 contact.html # Contact Page (Not Uploaded)
-┣ 📜 join.html # Careers & Hiring Page (Not Uploaded)
+┣ 📜 services.html # Our Services 
+┣ 📜 contact.html # Contact Page 
+┣ 📜 join.html # Careers & Hiring Page 
 ┣ 📜 advice.html # Care Advice Section
 ┣ 📜 signup.html # User Signup Page
-┣ 📜 login.html # User Login Page (Not Uploaded)
-┣ 📜 styles.css # Main Stylesheet (Not Uploaded)
+┣ 📜 login.html # User Login Page 
+┣ 📜 styles.css # Main Stylesheet 
 ┣ 📜 script.js # JavaScript Functionality
 ┗ 📂 assets/ # Images & Static Resources
